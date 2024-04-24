@@ -1,0 +1,113 @@
+/* saisissez ici vos règles CSS */
+
+#container {
+    width: 980px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    padding: 1em 0;
+    margin: 0;
+    background: black;
+    color: white;
+}
+
+#main {
+    position: relative;
+}
+
+#main h2 {
+    margin-bottom: 1em;
+    color: black;
+}
+
+#main nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: black;
+}
+
+#main p {
+    text-align: justify;
+    color: black;
+}
+
+#main ul {
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    list-style-type: none;
+    color: black;
+
+}
+
+#main ul li {
+    margin: 10px;
+    border: 3px solid black;
+
+    padding: 5px;;
+}
+
+#main ul li img {
+    height: 150px
+}
+
+#main form, #main nav > p {
+    display: inline-block;
+
+}
+
+#main nav form select {
+
+    color: black;
+}
+
+
+#albums {
+    visibility: hidden;
+    width: auto;
+    height: auto;
+    font-size: 12px;
+    background-color: white;
+    position: absolute;
+    text-align: center;
+    border: solid 1px black;
+    opacity: 0;
+    padding-bottom: 5px;
+}
+
+#albums h2 {
+    background-color: deepskyblue;
+    color: white;
+    padding: 1px;
+    margin-top: 0px;
+}
+
+#albums table {
+    border-spacing: 25px 5px;
+
+}
+
+
+#albums > form > button {
+    font-size: 7px;
+    height: auto;
+    width: auto;
+    margin: auto;
+    background-color: white;
+    border: solid 1px lightgrey;
+    border-radius: 4px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 0.5em 0;
+    margin: 0;
+    background: black;
+    color: white;
+}
